@@ -4,6 +4,8 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
   }
+
+  
   
   #navbar {
     overflow: hidden;
@@ -43,6 +45,7 @@
   #navbar a:hover {
     background-color: #dddddd75;
     color: black;
+        transform: scale(1.05);
   }
   
   #navbar a.active {
@@ -106,9 +109,14 @@
     border-radius: 30px;
     text-align: center;
     color: #ffffff;
+    transition: all 0.3s ease-in-out;
   }
-
-  .card a{
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card a {
     color: #ffffff;
     text-decoration: none;
   }
@@ -140,4 +148,28 @@
   #osu {
     background-color: #f062a1;
     border-radius: 30px;
+  }
+
+  #aus {
+    background-image: url(/scs/ausc.PNG);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #hbmp {
+    background-image: url(/scs/HBMP.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #osucla {
+    background-image: url(/scs/osuc.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cscla {
+    background-image: url(/scs/csc.png);
+    background-size: cover;
+    background-position: center;
   }
