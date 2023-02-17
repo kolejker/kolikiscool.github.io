@@ -110,24 +110,10 @@ footer nav a {
   color: #ffffff;
   background-color: #333;
   transition: all 0.3s ease-in-out;
-  margin: 10px 20px 0;
-  cursor: pointer;
-  position: relative;
 }
 
-.card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  filter: blur(3px);
-  z-index: -1;
-}
-
-.card:hover:before {
-  filter: blur(0);
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card a {
