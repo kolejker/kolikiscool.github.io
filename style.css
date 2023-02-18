@@ -178,6 +178,7 @@ footer nav a {
   background-image: url(/scs/extra.png);
   background-size: cover;
   background-position: center;
+  padding: 20px;
 }
 
 #polonia {
@@ -207,13 +208,7 @@ footer nav a {
   background-color: #830051;
 }
 
-.active,
-.collapsible:hover {
-  background-color: #d6d6d6;
-}
-
 .content {
-  padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
