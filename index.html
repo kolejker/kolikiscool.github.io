@@ -76,15 +76,15 @@
           <div class="card" id="hbmp">
             <a href="https://kolikiscool.github.io/hbmp">
               <h4>HBMP</h4>
-              <h6>WIP: Web music player with local library support.</h6>
+              <h6>Web music player with local library support.</h6>
             </a>
           </div>
         </div>
         <div class="column">
           <div class="card" id="cscla">
             <a href="https://kolikiscool.github.io/csgoclassicweb">
-              <h4>CS:GO Classic</h4>
-              <h6>More stable 2015 cs:go version with matchmaking.</h6>
+              <h4>CS:GO WebGL Classic</h4>
+              <h6>Old CS:GO remade in unity WebGL with matchmaking.</h6>
             </a>
           </div>
         </div>
@@ -99,6 +99,36 @@
           </div>
         </div>
       </div>
+      <button class="collapsible">See more</button>
+      <div class="content">
+        <div class="row">
+          <div class="column">
+            <div class="card" id="extra">
+              <a href="https://kolikiscool.github.io/extra">
+                <h4>extra</h4>
+                <h6>??</h6>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+      </script>
 
       <h2>About me</h2>
 

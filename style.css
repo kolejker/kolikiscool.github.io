@@ -12,12 +12,13 @@ body {
   background-image: url(image.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #f1f1f1;
+  background-color: #86004a;
   padding: 90px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
   top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 99;
 }
 
@@ -110,6 +111,7 @@ footer nav a {
   color: #ffffff;
   background-color: #333;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card:hover {
@@ -172,10 +174,49 @@ footer nav a {
   background-position: center;
 }
 
+#extra {
+  background-image: url(/scs/extra.png);
+  background-size: cover;
+  background-position: center;
+}
+
 #polonia {
   border-radius: 50px;
 }
 
 #polonia .img {
   border-radius: 50px;
+}
+
+.collapsible {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  width: auto;
+  font-weight: bold;
+  font-size: 16px;
+  background-image: url(smallerimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #830051;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #d6d6d6;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  display: flex;
+  flex-direction: column-reverse;
 }
