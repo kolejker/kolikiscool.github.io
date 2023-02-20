@@ -106,6 +106,7 @@ footer nav a {
 
 .card {
   padding: 16px;
+  height: 240px;
   border-radius: 30px;
   text-align: center;
   color: #ffffff;
@@ -182,7 +183,11 @@ footer nav a {
 }
 
 #polonia {
+  border-radius: 30px;
   border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #polonia .img {
