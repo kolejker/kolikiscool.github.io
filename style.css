@@ -385,6 +385,13 @@ a {
   background-size: cover;
 }
 
+.osucla {
+  background-image: url("img/osucla.png");
+  background-repeat: no-repeat;
+  background-color: #e43e8c;
+  background-size: cover;
+}
+
 .csweb {
   background-image: url("img/csweb.png");
   background-repeat: no-repeat;
