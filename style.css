@@ -145,7 +145,7 @@ a {
 .card-row {
   display: flex;
   flex-wrap: nowrap;
-
+  overflow-y: visible;
   padding: 20px;
   width: 100%;
   bottom: 0;
@@ -163,7 +163,8 @@ a {
   width: 300px;
   height: 200px;
   margin-right: 20px;
-
+  padding: 10px;
+  text-shadow: 2px 2px 8px #000000a6;
   box-shadow: 0px 0px 5px 0px #ddd;
   box-sizing: border-box;
   padding-top: 30px;
@@ -347,46 +348,46 @@ a {
   #navbar-right {
     float: none;
   }
+}
 
-  .wind7 {
-    background-image: url("img/wind7.png");
-    background-repeat: no-repeat;
-    background-color: #032a63;
-    background-size: cover;
-  }
+.wind7 {
+  background-image: url("img/wind7.png");
+  background-repeat: no-repeat;
+  background-color: #032a63;
+  background-size: cover;
+}
 
-  .sandroid {
-    background-image: url("img/sandroid.png");
-    background-repeat: no-repeat;
-    background-color: #e28743;
-    background-size: cover;
-  }
+.sandroid {
+  background-image: url("img/sandroid.png");
+  background-repeat: no-repeat;
+  background-color: #e28743;
+  background-size: cover;
+}
 
-  .hbmp {
-    background-image: url("img/hbmp.png");
-    background-repeat: no-repeat;
-    background-color: #2fa7ca;
-    background-size: cover;
-  }
+.hbmp {
+  background-image: url("img/hbmp.png");
+  background-repeat: no-repeat;
+  background-color: #2fa7ca;
+  background-size: cover;
+}
 
-  .aus {
-    background-image: url("img/aus.png");
-    background-repeat: no-repeat;
-    background-color: #e43e8c;
-    background-size: cover;
-  }
+.aus {
+  background-image: url("img/aus.png");
+  background-repeat: no-repeat;
+  background-color: #e43e8c;
+  background-size: cover;
+}
 
-  .consui {
-    background-image: url("img/consui.png");
-    background-repeat: no-repeat;
-    background-color: #00055c;
-    background-size: cover;
-  }
+.consui {
+  background-image: url("img/consui.png");
+  background-repeat: no-repeat;
+  background-color: #00055c;
+  background-size: cover;
+}
 
-  .csweb {
-    background-image: url("img/csweb.png");
-    background-repeat: no-repeat;
-    background-color: #00055c;
-    background-size: cover;
-  }
+.csweb {
+  background-image: url("img/csweb.png");
+  background-repeat: no-repeat;
+  background-color: #00055c;
+  background-size: cover;
 }
