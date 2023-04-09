@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-  height: 400px;
+  height: 310px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .container4all {
-  width: 70%;
+  width: 55%;
   margin: 0 auto;
 }
 
